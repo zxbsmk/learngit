@@ -1,0 +1,9 @@
+git add  readme.txt  增添文件到上传列表（可同时提交多个文件）
+git commit -m "something changed"    上传列表  "^"为tips
+git status    查看目前数据状况，包括上传列表和修改情况
+git diff readme.txt   查看文件修改情况
+git log  (--pretty=oneline)  查看修改日志，加上参数可简化输出结果
+git reset --hard HEAD~100  即恢复到前100个版本
+git reset --hard cb926e7e  直接恢复到相应版本号
+git reflog   查看历史命令
+cat readme.txt  可以查看文件内容
