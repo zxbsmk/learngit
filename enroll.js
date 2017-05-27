@@ -2,7 +2,7 @@ var enroll=document.getElementById("enroll");
 //alert(enroll);
 enroll.onclick=function(e){
 	e.preventDefault();
-	enroll.innerHTML="已参与";
+	enroll.innerHTML="已赞";
 	enroll.style.background="#27cb8b";
 	enroll.style.borderColor="#27cb8b";
 }
